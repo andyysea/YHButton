@@ -17,6 +17,7 @@
 		EAB3D8391DE185550022BAC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3D8381DE185550022BAC6 /* ViewController.m */; };
 		EAB3D83E1DE185A50022BAC6 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3D83D1DE185A50022BAC6 /* UIView+Common.m */; };
 		EAB3D8411DE186140022BAC6 /* YHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3D8401DE186140022BAC6 /* YHViewController.m */; };
+		EAB3D84A1DE18B4F0022BAC6 /* YYHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3D8491DE18B4F0022BAC6 /* YYHButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		EAB3D83D1DE185A50022BAC6 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
 		EAB3D83F1DE186140022BAC6 /* YHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHViewController.h; sourceTree = "<group>"; };
 		EAB3D8401DE186140022BAC6 /* YHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHViewController.m; sourceTree = "<group>"; };
+		EAB3D8481DE18B4F0022BAC6 /* YYHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHButton.h; sourceTree = "<group>"; };
+		EAB3D8491DE18B4F0022BAC6 /* YYHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYHButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				EAB3D83F1DE186140022BAC6 /* YHViewController.h */,
 				EAB3D8401DE186140022BAC6 /* YHViewController.m */,
+				EAB3D8481DE18B4F0022BAC6 /* YYHButton.h */,
+				EAB3D8491DE18B4F0022BAC6 /* YYHButton.m */,
 			);
 			path = code;
 			sourceTree = "<group>";
@@ -198,6 +203,7 @@
 				EAB3D7C01DDDB34B0022BAC6 /* AppDelegate.m in Sources */,
 				EAB3D8351DE185360022BAC6 /* YHButton.m in Sources */,
 				EAB3D7BD1DDDB34B0022BAC6 /* main.m in Sources */,
+				EAB3D84A1DE18B4F0022BAC6 /* YYHButton.m in Sources */,
 				EAB3D8391DE185550022BAC6 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,8 +7,12 @@
 //
 
 #import "YHViewController.h"
+#import "YYHButton.h"
+
 
 @interface YHViewController ()
+
+@property (nonatomic, assign) BOOL isChange;
 
 @end
 
@@ -16,8 +20,50 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+    
+    YYHButton *button = [[YYHButton alloc] initWithFrame:CGRectMake(0, 0, 300, 40)];
+    button.backgroundColor = [UIColor lightGrayColor];
+    
+    button.center = self.view.center;
+    
+    
+    [self.view addSubview:button];
+    
+    [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventValueChanged];
+    
+    self.isChange = YES;
+    
 }
+
+
+
+- (void)buttonClick:(YYHButton *)button {
+    
+    NSLog(@"==============");
+    
+    if (self.isChange) {
+        button.isSelect = YES;
+        button.title = @"我是自定义按钮哦-哈哈";
+        self.isChange = NO;
+    } else {
+        button.isSelect = NO;
+        button.title = @"哈哈";
+        self.isChange = YES;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
