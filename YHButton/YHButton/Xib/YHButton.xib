@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YHButton">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uSi-v4-JDh">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0R-H4-y0F">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navigationbar_arrow_down" translatesAutoresizingMaskIntoConstraints="NO" id="nPw-Zk-IkU"/>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.781357352" blue="0.50788358860000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="nPw-Zk-IkU" firstAttribute="leading" secondItem="r0R-H4-y0F" secondAttribute="trailing" constant="5" id="4OE-TL-KwM"/>
+                        <constraint firstAttribute="bottom" secondItem="r0R-H4-y0F" secondAttribute="bottom" constant="3" id="5vm-kJ-5wJ"/>
+                        <constraint firstItem="r0R-H4-y0F" firstAttribute="leading" secondItem="uSi-v4-JDh" secondAttribute="leading" constant="20" id="FRP-28-bEx"/>
+                        <constraint firstItem="r0R-H4-y0F" firstAttribute="top" secondItem="uSi-v4-JDh" secondAttribute="top" constant="3" id="L7D-u5-RkE"/>
+                        <constraint firstItem="nPw-Zk-IkU" firstAttribute="centerY" secondItem="r0R-H4-y0F" secondAttribute="centerY" id="cc3-uR-YNV"/>
+                        <constraint firstAttribute="trailing" secondItem="nPw-Zk-IkU" secondAttribute="trailing" constant="10" id="muO-96-lOx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="uSi-v4-JDh" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="GI0-nP-e7D"/>
+                <constraint firstItem="uSi-v4-JDh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="N3N-y6-x0S"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="nPw-Zk-IkU" id="sta-4B-HpS"/>
+                <outlet property="nameLabel" destination="r0R-H4-y0F" id="T1g-9M-CVu"/>
+            </connections>
+            <point key="canvasLocation" x="15" y="-159"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="navigationbar_arrow_down" width="13" height="7"/>
+    </resources>
+</document>

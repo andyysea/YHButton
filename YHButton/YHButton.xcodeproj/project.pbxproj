@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAB3D7BD1DDDB34B0022BAC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3D7BC1DDDB34B0022BAC6 /* main.m */; };
+		EAB3D7C01DDDB34B0022BAC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3D7BF1DDDB34B0022BAC6 /* AppDelegate.m */; };
+		EAB3D7C61DDDB34B0022BAC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB3D7C41DDDB34B0022BAC6 /* Main.storyboard */; };
+		EAB3D7C81DDDB34B0022BAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB3D7C71DDDB34B0022BAC6 /* Assets.xcassets */; };
+		EAB3D7CB1DDDB34B0022BAC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB3D7C91DDDB34B0022BAC6 /* LaunchScreen.storyboard */; };
+		EAB3D8351DE185360022BAC6 /* YHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3D8331DE185360022BAC6 /* YHButton.m */; };
+		EAB3D8361DE185360022BAC6 /* YHButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAB3D8341DE185360022BAC6 /* YHButton.xib */; };
+		EAB3D8391DE185550022BAC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3D8381DE185550022BAC6 /* ViewController.m */; };
+		EAB3D83E1DE185A50022BAC6 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3D83D1DE185A50022BAC6 /* UIView+Common.m */; };
+		EAB3D8411DE186140022BAC6 /* YHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB3D8401DE186140022BAC6 /* YHViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAB3D7B81DDDB34B0022BAC6 /* YHButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB3D7BC1DDDB34B0022BAC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAB3D7BE1DDDB34B0022BAC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAB3D7BF1DDDB34B0022BAC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAB3D7C51DDDB34B0022BAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAB3D7C71DDDB34B0022BAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAB3D7CA1DDDB34B0022BAC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAB3D7CC1DDDB34B0022BAC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB3D8321DE185360022BAC6 /* YHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHButton.h; sourceTree = "<group>"; };
+		EAB3D8331DE185360022BAC6 /* YHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHButton.m; sourceTree = "<group>"; };
+		EAB3D8341DE185360022BAC6 /* YHButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHButton.xib; sourceTree = "<group>"; };
+		EAB3D8371DE185550022BAC6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAB3D8381DE185550022BAC6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAB3D83C1DE185A50022BAC6 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		EAB3D83D1DE185A50022BAC6 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		EAB3D83F1DE186140022BAC6 /* YHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHViewController.h; sourceTree = "<group>"; };
+		EAB3D8401DE186140022BAC6 /* YHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB3D7B51DDDB34B0022BAC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAB3D7AF1DDDB34B0022BAC6 = {
+			isa = PBXGroup;
+			children = (
+				EAB3D7BA1DDDB34B0022BAC6 /* YHButton */,
+				EAB3D7B91DDDB34B0022BAC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB3D7B91DDDB34B0022BAC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB3D7B81DDDB34B0022BAC6 /* YHButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB3D7BA1DDDB34B0022BAC6 /* YHButton */ = {
+			isa = PBXGroup;
+			children = (
+				EAB3D7BE1DDDB34B0022BAC6 /* AppDelegate.h */,
+				EAB3D7BF1DDDB34B0022BAC6 /* AppDelegate.m */,
+				EAB3D83B1DE185720022BAC6 /* code */,
+				EAB3D8311DE185360022BAC6 /* Xib */,
+				EAB3D83A1DE185690022BAC6 /* tool */,
+				EAB3D7C41DDDB34B0022BAC6 /* Main.storyboard */,
+				EAB3D7C71DDDB34B0022BAC6 /* Assets.xcassets */,
+				EAB3D7C91DDDB34B0022BAC6 /* LaunchScreen.storyboard */,
+				EAB3D7CC1DDDB34B0022BAC6 /* Info.plist */,
+				EAB3D7BB1DDDB34B0022BAC6 /* Supporting Files */,
+			);
+			path = YHButton;
+			sourceTree = "<group>";
+		};
+		EAB3D7BB1DDDB34B0022BAC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB3D7BC1DDDB34B0022BAC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAB3D8311DE185360022BAC6 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				EAB3D8371DE185550022BAC6 /* ViewController.h */,
+				EAB3D8381DE185550022BAC6 /* ViewController.m */,
+				EAB3D8321DE185360022BAC6 /* YHButton.h */,
+				EAB3D8331DE185360022BAC6 /* YHButton.m */,
+				EAB3D8341DE185360022BAC6 /* YHButton.xib */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		EAB3D83A1DE185690022BAC6 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				EAB3D83C1DE185A50022BAC6 /* UIView+Common.h */,
+				EAB3D83D1DE185A50022BAC6 /* UIView+Common.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		EAB3D83B1DE185720022BAC6 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				EAB3D83F1DE186140022BAC6 /* YHViewController.h */,
+				EAB3D8401DE186140022BAC6 /* YHViewController.m */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB3D7B71DDDB34B0022BAC6 /* YHButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB3D7CF1DDDB34B0022BAC6 /* Build configuration list for PBXNativeTarget "YHButton" */;
+			buildPhases = (
+				EAB3D7B41DDDB34B0022BAC6 /* Sources */,
+				EAB3D7B51DDDB34B0022BAC6 /* Frameworks */,
+				EAB3D7B61DDDB34B0022BAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHButton;
+			productName = YHButton;
+			productReference = EAB3D7B81DDDB34B0022BAC6 /* YHButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB3D7B01DDDB34B0022BAC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = YYH;
+				TargetAttributes = {
+					EAB3D7B71DDDB34B0022BAC6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EAB3D7B31DDDB34B0022BAC6 /* Build configuration list for PBXProject "YHButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB3D7AF1DDDB34B0022BAC6;
+			productRefGroup = EAB3D7B91DDDB34B0022BAC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB3D7B71DDDB34B0022BAC6 /* YHButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB3D7B61DDDB34B0022BAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB3D7CB1DDDB34B0022BAC6 /* LaunchScreen.storyboard in Resources */,
+				EAB3D7C81DDDB34B0022BAC6 /* Assets.xcassets in Resources */,
+				EAB3D8361DE185360022BAC6 /* YHButton.xib in Resources */,
+				EAB3D7C61DDDB34B0022BAC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB3D7B41DDDB34B0022BAC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB3D83E1DE185A50022BAC6 /* UIView+Common.m in Sources */,
+				EAB3D8411DE186140022BAC6 /* YHViewController.m in Sources */,
+				EAB3D7C01DDDB34B0022BAC6 /* AppDelegate.m in Sources */,
+				EAB3D8351DE185360022BAC6 /* YHButton.m in Sources */,
+				EAB3D7BD1DDDB34B0022BAC6 /* main.m in Sources */,
+				EAB3D8391DE185550022BAC6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAB3D7C41DDDB34B0022BAC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB3D7C51DDDB34B0022BAC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAB3D7C91DDDB34B0022BAC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB3D7CA1DDDB34B0022BAC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB3D7CD1DDDB34B0022BAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAB3D7CE1DDDB34B0022BAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB3D7D01DDDB34B0022BAC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yyh.YHButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAB3D7D11DDDB34B0022BAC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yyh.YHButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB3D7B31DDDB34B0022BAC6 /* Build configuration list for PBXProject "YHButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB3D7CD1DDDB34B0022BAC6 /* Debug */,
+				EAB3D7CE1DDDB34B0022BAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB3D7CF1DDDB34B0022BAC6 /* Build configuration list for PBXNativeTarget "YHButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB3D7D01DDDB34B0022BAC6 /* Debug */,
+				EAB3D7D11DDDB34B0022BAC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAB3D7B01DDDB34B0022BAC6 /* Project object */;
+}
