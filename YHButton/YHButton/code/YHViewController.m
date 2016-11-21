@@ -45,7 +45,7 @@
     
     if (self.isChange) {
         button.isSelect = YES;
-        button.title = @"我是自定义按钮哦-哈哈";
+        button.title = @"我是自定义按钮哦-哈哈--继续加上一些字体";
         self.isChange = NO;
     } else {
         button.isSelect = NO;

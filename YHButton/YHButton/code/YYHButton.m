@@ -86,6 +86,23 @@
                          multiplier:1.0
                          constant:0]];
 
+    // 给view添加左右约束防止 超出外界设置的按钮的宽度
+    [self addConstraint:[NSLayoutConstraint
+                         constraintWithItem:view
+                         attribute:NSLayoutAttributeLeft
+                         relatedBy:NSLayoutRelationGreaterThanOrEqual
+                         toItem:self
+                         attribute:NSLayoutAttributeLeft
+                         multiplier:1.0
+                         constant:5]];
+    [self addConstraint:[NSLayoutConstraint
+                         constraintWithItem:view
+                         attribute:NSLayoutAttributeRight
+                         relatedBy:NSLayoutRelationLessThanOrEqual
+                         toItem:self
+                         attribute:NSLayoutAttributeRight
+                         multiplier:1.0
+                         constant:-5]];
     
     // 2. 添加Label --> 作为自定义按钮的title
     UILabel *titleLabel = [[UILabel alloc] init];
@@ -101,7 +118,7 @@
                         toItem:view
                         attribute:NSLayoutAttributeLeft
                         multiplier:1.0
-                         constant:15]];
+                         constant:5]];
     [self addConstraint:[NSLayoutConstraint
                          constraintWithItem:titleLabel
                          attribute:NSLayoutAttributeTop
@@ -148,8 +165,18 @@
                          toItem:view
                          attribute:NSLayoutAttributeRight
                          multiplier:1.0
-                         constant:-10]];
+                         constant:-5]];
 
+
+    // 给titleLabel 添加一个宽度约束,防止字体过多,把图片箭头挤没了
+    [self addConstraint:[NSLayoutConstraint
+                         constraintWithItem:titleLabel
+                         attribute:NSLayoutAttributeWidth
+                         relatedBy:NSLayoutRelationLessThanOrEqual
+                         toItem:nil
+                         attribute:0
+                         multiplier:1.0
+                         constant:self.bounds.size.width - 10 - 15 - imageView.bounds.size.width]];
     
     // 4. 添加手势
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureClick)];
