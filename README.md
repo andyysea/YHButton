@@ -1,0 +1,4 @@
+# YHButton
+自定义控件来自定义Button
+
+在自定义控件添加约束,实现自定义的button,当title长度发生改变的时候,能够自动和imageView一起重新在按钮内部居中
